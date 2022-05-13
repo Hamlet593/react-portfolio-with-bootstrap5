@@ -19,9 +19,9 @@ body {
     color: white !important;
     margin-left: 0.75rem;
     margin-right: 0.75rem;
+    border-top: 0.125rem solid rgb(33, 37, 41);
 
 }
 .nav-link:focus {
     border-top: 0.125rem solid orange;
-    color: orange !important;
 }
