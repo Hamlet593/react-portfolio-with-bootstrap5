@@ -5,15 +5,9 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-<<<<<<< HEAD
-    <>
-      <Navbar />
-    </>
-=======
     <div>
       <Navbar />
     </div>
->>>>>>> 749a3be07ae9655364dab20fe1eb700eb2aeb3cf
   );
 }
 

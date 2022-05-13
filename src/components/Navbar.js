@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const Navbar = () => {
-  return (
-    <div>Navbar</div>
-=======
 import React from 'react';
 import myLogo from '../logo.png';
 
@@ -40,7 +33,6 @@ const Navbar = () => {
             </div>
         </div>
     </nav>
->>>>>>> 749a3be07ae9655364dab20fe1eb700eb2aeb3cf
   )
 }
 
