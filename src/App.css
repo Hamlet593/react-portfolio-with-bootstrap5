@@ -25,3 +25,12 @@ body {
 .nav-link:focus {
     border-top: 0.125rem solid orange;
 }
+
+/* HEADER */
+
+/* .header-wraper {
+    position: relative;
+    background: url('/src/laptop-background.jpg');
+    background-size: cover;
+    height: 100vh;
+} */
