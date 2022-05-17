@@ -28,9 +28,10 @@ body {
 
 /* HEADER */
 
-/* .header-wraper {
+.header-wraper {
     position: relative;
-    background: url('/src/laptop-background.jpg');
+    background: url('/src/laptop-background.jpg') no-repeat;
     background-size: cover;
+    background-position: center;
     height: 100vh;
-} */
+}
