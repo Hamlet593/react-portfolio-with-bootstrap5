@@ -1,12 +1,21 @@
 import React from 'react';
-import backgroundImage from '../laptop-background.jpg';
+import Typed from 'react-typed';
 
 const Header = () => {
   return (
     <>
       <div className='header-wraper'>
-        <div className='main-info'>
-          <h2>Web development and website promotions</h2>
+        <div className='main-info text-center'>
+          <h1>Գրքամոլ Հրատարակչության կողմից լույս տեսած գրքերը</h1>
+          <Typed
+            className='typed-text '
+            strings={['Ինչու ես տխուր', 'Մայրիկ', 'Լոկուս Մորբի']}
+            typeSpeed={40}
+            backSpeed={60}
+            startDelay={1500}
+            loop
+          />
+          <a className="btn btn-primary" href="https://www.facebook.com/GrqamolPublishingHouse" target="_blank" role="button">Կապվել մեզ հետ</a>
         </div>
       </div>
     </>

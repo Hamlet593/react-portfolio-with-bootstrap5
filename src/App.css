@@ -35,3 +35,37 @@ body {
     background-position: center;
     height: 100vh;
 }
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-info h1 {
+    color: rgb(255, 184, 53);
+    text-transform: uppercase;
+}
+
+.typed-text {
+    font-size: 2rem;
+    color: white;
+}
+
+.btn {
+    border: 2px solid rgb(241, 179, 97) !important;
+    background-color: transparent !important;
+}
+
+.btn:hover {
+    background-color: red !important;
+}
+
+.btn:focus {
+    background-color: rgb(185, 24, 137) !important;
+}
+
+.btn:active {
+    background-color: rgb(255, 246, 116) !important;
+}
