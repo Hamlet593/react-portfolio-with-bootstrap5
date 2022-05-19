@@ -15,7 +15,7 @@ const Header = () => {
             startDelay={1500}
             loop
           />
-          <a className="btn btn-primary" href="https://www.facebook.com/GrqamolPublishingHouse" target="_blank" role="button">Կապվել մեզ հետ</a>
+          <a className="btn mt-5" href="#" role="button">Կապվել մեզ հետ</a>
         </div>
       </div>
     </>

@@ -37,6 +37,11 @@ body {
 }
 
 .main-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,23 +54,28 @@ body {
 }
 
 .typed-text {
-    font-size: 2rem;
+    font-size: 3rem;
     color: white;
 }
 
 .btn {
-    border: 2px solid rgb(241, 179, 97) !important;
-    background-color: transparent !important;
+    color: white;
+    background-color: rgb(255, 184, 53);
 }
 
 .btn:hover {
-    background-color: red !important;
+    color: rgb(38, 28, 190);
 }
 
-.btn:focus {
-    background-color: rgb(185, 24, 137) !important;
+
+.btn:focus, .btn.active:focus, .btn:active:focus {
+    background-color: rgb(255, 184, 53);
+    box-shadow: none;
 }
 
-.btn:active {
-    background-color: rgb(255, 246, 116) !important;
+#tsparticles {
+    position: absolute !important;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
 }
