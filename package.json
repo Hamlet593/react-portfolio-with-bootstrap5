@@ -16,7 +16,7 @@
     "react-scripts": "5.0.1",
     "react-type": "^0.1.0",
     "react-typed": "^1.2.0",
-    "sass": "^1.51.0",
+    "sass": "^1.52.1",
     "typed.js": "^2.0.12",
     "web-vitals": "^2.1.4"
   },

@@ -1,36 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+$textColor: white !important;
+$navColor: rgb(33, 37, 41);
+$logoColor: rgb(255, 184, 53);
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-/* NAVBAR */
+.navbar {
+    background-color: rgb(255, 184, 53) !important;
+}
 
 .logo {
-    width: 10rem;
+    width: 8rem;
 }
- 
-/* NAV LINKS */
 
-.nav-link {
-    cursor: pointer;
-    letter-spacing: 0.0375rem;
-    text-transform: uppercase;
-    color: white !important;
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
-    border-top: 0.125rem solid rgb(33, 37, 41);
-
-}
-.nav-link:focus {
-    border-top: 0.125rem solid orange;
+.central_block {
+    a {
+        cursor: pointer;
+        letter-spacing: 0.0375rem;
+        text-transform: uppercase;
+        color: $textColor;
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        border-top: 0.125rem solid rgb(33, 37, 41);
+        &:focus {
+            border-top: 0.125rem solid rgb(255, 184, 53);
+        }
+    }
 }
 
 /* HEADER */
 
 .header-wraper {
     position: relative;
-    background: url('/src/laptop-background.jpg') no-repeat;
+    background: url('../src/laptop-background.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -56,27 +60,20 @@ body {
 
 .typed-text {
     font-size: 3rem;
-    color: white;
+    color: $textColor;
 }
 
 .btn {
-    color: white;
+    color: $textColor;
     background-color: rgb(255, 184, 53);
 }
 
 .btn:hover {
-    color: rgb(38, 28, 190);
+    color: rgb(22, 18, 92) !important;
 }
-
 
 .btn:focus, .btn.active:focus, .btn:active:focus {
     background-color: rgb(255, 184, 53);
     box-shadow: none;
 }
 
-#tsparticles {
-    position: absolute !important;
-    height: 100vh;
-    width: 100vw;
-    z-index: 1;
-}
