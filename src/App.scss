@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+$textColor: white !important;
+$navColor: rgb(33, 37, 41);
+$logoColor: rgb(255, 184, 53);
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(255, 184, 53) !important;
+}
+
+.logo {
+    width: 8rem;
+}
+
+.central_block {
+    a {
+        cursor: pointer;
+        letter-spacing: 0.0375rem;
+        text-transform: uppercase;
+        color: $textColor;
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        border-top: 0.125rem solid rgb(33, 37, 41);
+        &:focus {
+            border-top: 0.125rem solid rgb(255, 184, 53);
+        }
+    }
+}
+
+/* HEADER */
+
+.header-wraper {
+    position: relative;
+    background: url('../src/laptop-background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.main-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.main-info h1 {
+    color: rgb(255, 184, 53);
+    text-transform: uppercase;
+}
+
+.typed-text {
+    font-size: 3rem;
+    color: $textColor;
+}
+
+.btn {
+    color: $textColor;
+    background-color: rgb(255, 184, 53);
+}
+
+.btn:hover {
+    color: rgb(22, 18, 92) !important;
+}
+
+.btn:focus, .btn.active:focus, .btn:active:focus {
+    background-color: rgb(255, 184, 53);
+    box-shadow: none;
+}
+
